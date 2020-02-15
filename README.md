@@ -35,7 +35,7 @@ To print an error and save it to history
    log.console(err);
    ```
 
-Accepted arguments: an `Err` instance or a string
+Accepted arguments: any object or an `Err` instance
 
 ### Snackbar messages
 
