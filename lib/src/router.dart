@@ -31,7 +31,7 @@ class ErrRouter {
         break;
       default:
         final _msg = "$err";
-        _dispatch(Err.fromType(_msg, ErrType.info));
+        _dispatch(Err.fromType(_msg, ErrType.debug));
         _addStringToErrLogger(_msg, ErrType.debug);
     }
   }
