@@ -1,5 +1,7 @@
 # Err router
 
+[![pub package](https://img.shields.io/pub/v/err_router.svg)](https://pub.dartlang.org/packages/err_router)
+
 A logs router that can pop messages to the device screen. 
 Based on the [err](https://github.com/synw/err) package for errors management. The messages can be routed to:
 
