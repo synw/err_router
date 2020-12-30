@@ -174,7 +174,7 @@ class ErrRouter {
         break;
     }
     Flushbar flush;
-    flush = Flushbar(
+    flush = Flushbar<dynamic>(
       duration: short ? const Duration(seconds: 5) : const Duration(days: 365),
       icon: Icon(
         _icon,
@@ -298,7 +298,7 @@ class _ShortToast {
         msg: errMsg,
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
-        timeInSecForIos: timeOnScreen,
+        timeInSecForIosWeb: timeOnScreen,
         backgroundColor: backgroundColor,
         textColor: textColor,
         fontSize: 16.0);
